@@ -1,9 +1,9 @@
 Income Prediction with Fairness & Bias Analysis
-📌 Project Overview
+ Project Overview
 
 This project aims to build a machine learning model that predicts whether an individual earns more than $50K per year (binary classification). Beyond achieving predictive accuracy, the project places strong emphasis on fairness and bias analysis, ensuring that model decisions remain equitable across protected attributes such as sex and race.
 
-🎯 Objectives
+Objectives
 
 Develop a predictive model for income classification.
 
@@ -13,7 +13,7 @@ Explore mitigation strategies to reduce bias while maintaining performance.
 
 Provide insights and recommendations for responsible AI deployment.
 
-🔑 Key Steps
+ Key Steps
 1. Data Collection & Cleaning
 
 Load dataset (UCI Adult / Census Income dataset).
@@ -80,7 +80,7 @@ Provide real-world implications for deploying equitable ML models.
 
 Suggest strategies to ensure ongoing monitoring for bias.
 
-📂 Project Structure
+Project Structure
 ├── data/                # Raw and processed datasets  
 ├── notebooks/           # Jupyter notebooks for EDA, modeling, fairness analysis  
 ├── src/                 # Python scripts for data prep, modeling, and evaluation  
@@ -88,7 +88,7 @@ Suggest strategies to ensure ongoing monitoring for bias.
 ├── README.md            # Project documentation  
 └── requirements.txt     # Dependencies  
 
-⚙️ Tech Stack
+ Tech Stack
 
 Python (Pandas, NumPy, Scikit-learn)
 
@@ -104,7 +104,7 @@ Target Variable: income (<=50K, >50K)
 
 Protected Attributes: sex, race
 
-🚀 How to Run
+ How to Run
 
 Clone the repository:
 
@@ -121,5 +121,3 @@ Run preprocessing & training scripts:
 
 python src/train_model.py
 
-
-Explore Jupyter notebooks in notebooks/ for step-by-step analysis.
